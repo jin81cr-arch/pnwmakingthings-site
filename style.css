@@ -10,7 +10,9 @@ header.site .in{display:flex;align-items:center;justify-content:space-between;he
 .brand span{color:var(--accent)}
 nav a{margin-left:18px;text-decoration:none;font-size:15px}
 main{padding-top:44px;padding-bottom:60px}
-.logo{display:block;width:100%;max-width:440px;height:auto;border-radius:16px;margin:0 0 26px}
+.hero{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:0 0 8px}
+.hero .lead{margin:0}
+.logo{display:block;width:140px;height:auto;border-radius:12px;flex:none}
 h1{font-size:34px;line-height:1.2;margin:0 0 8px}
 h2{font-size:21px;margin:38px 0 8px}
 h3{font-size:17px;margin:24px 0 4px}
