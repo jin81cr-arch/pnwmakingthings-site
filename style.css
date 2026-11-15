@@ -46,6 +46,10 @@ h3{font-size:19px;font-weight:700;margin:28px 0 6px}
 .help h2{margin:0 0 6px;font-size:22px}
 .help p{margin:0}
 .others{margin:14px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:8px 22px;font-weight:700}
+.social{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:12px}
+.social a{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 18px 0 14px;border:2px dashed var(--stitch);border-radius:999px;background:var(--paper);color:var(--ink);font-weight:700;font-size:16px;text-decoration:none}
+.social a:hover{border-style:solid;border-color:var(--ink)}
+.social svg{flex:none;display:block}
 footer{border-top:2px dashed var(--stitch);padding:20px 0 34px;color:var(--soft);font-size:15.5px}
 @media (max-width:560px){
  body{font-size:17px}
